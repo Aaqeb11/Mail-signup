@@ -29,7 +29,7 @@ app.post("/", (req, res) => {
   const url = "https://us10.api.mailchimp.com/3.0/lists/43ee02a868";
   const options = {
     method: "POST",
-    auth: "aaqeb110:d4dc2bce60a7e270208b91e61998e6e1-us10",
+    auth: "aaqeb110:4f07a724b337eebba5121c981a011330-us10",
   };
 
   const request = https.request(url, options, (response) => {
@@ -59,3 +59,4 @@ app.listen(process.env.PORT || 3000, () => {
 
 //d4dc2bce60a7e270208b91e61998e6e1-us10
 //43ee02a868
+//4f07a724b337eebba5121c981a011330-us10
